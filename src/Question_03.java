@@ -6,7 +6,7 @@ public class Question_03 {
         int feet_value  ;
         float inches_value = 0;
         Scanner scanner =new Scanner(System.in);
-        System.out.println("Enter the centimeter value: ");
+        System.out.print("Enter the centimeter value: ");
         cm_value = scanner.nextDouble();
         double inter_inch = (cm_value / 2.54);
         feet_value = (int)inter_inch / 12;
