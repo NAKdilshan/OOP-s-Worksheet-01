@@ -24,13 +24,17 @@ import java.util.Scanner;
             System.out.printf("The circumference of inner circle: " + "%.2f%n",inner_circumference);
             System.out.printf("The circumference of outer circle: " + "%.2f%n",outer_circumference);
         }
+}
+public class Main {
 
-        public static void main(String[] args) {
+            public static void main(String[] args) {
             Circle detail = new Circle();
             detail.setRadius();
             detail.computeArea();
             detail.computeCircumference();
         }
 }
+
+
 
 
