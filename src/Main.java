@@ -6,9 +6,9 @@ import java.util.Scanner;
         float ro;
         public void setRadius(){
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Enter the inner radius ");
+            System.out.print("Enter the inner radius: ");
             ri = scanner.nextFloat();
-            System.out.println("Enter the outer radius ");
+            System.out.print("Enter the outer radius: ");
             ro = scanner.nextFloat();
 
         }
